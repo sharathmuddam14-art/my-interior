@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .content1 img {
+    width: 100px;
+    height: 50px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 50px;
+    background-color: whitesmoke;
+  }
+  
+  .content1 ul {
+    width: 1250;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+    background-color: whitesmoke;
+  }
+  .content1 ul li {
+    text-decoration: none;
+    list-style: none;
+  }
+  .content1 ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: darkslategray;
+  }
+  .content1 ul li a:hover {
+    color: rgb(169, 207, 93);
+  }
+  .content2 {
+    width: 1210px;
+    height: 600px;
+    background-color: rgb(184, 182, 182);
+  }
+  .content2 img {
+    width: 800px;
+    height: 600px;
+    float: right;
+  }
+  .content2 h1 {
+    padding-left: 80px;
+    font-size: 40px;
+    padding-top: 100px;
+  }
+  .content2 p {
+    padding-left: 80px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: black;
+  }
+  .content2 button {
+    width: 200px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: bisque;
+    border-radius: 50px;
+    border-color: beige;
+  }
+  .content2 button a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+  }
+  .content3 {
+    width: 1200px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .content4 {
+    width: 1200px;
+    height: 400px;
+  }
+  .content4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 100px;
+  }
+  .content4 h2 {
+    font-size: 40px;
+  }
+  .content4 ul {
+    padding-left: 20px;
+  
+    text-align: center;
+  }
+  .content4 ul li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+  }
+  .content4 ul li a {
+    text-decoration: none;
+    color: black;
+    padding-top: 50px;
+  }
+  h4 {
+    width: 1200px;
+    height: 50px;
+    padding-left: 20px;
+    padding-top: 40px;
+  }
+  .content5 {
+    box-sizing: border-box;
+    width: 1200px;
+    height: 1200px;
+    background: url(./images/about\ background\ 1.jpg);
+    background-position: center;
+  }
+  .content5 h1 {
+    font-size: 50px;
+    padding-top: 650px;
+    padding-left: 50px;
+  }
+  .content5 h4 {
+    font-size: 20px;
+    padding-left: 40px;
+  }
+  .content6 {
+    width: 1300px;
+    height: 1000px;
+  }
+  .content6 img {
+    padding-left: 50px;
+    padding-top: 100px;
+  }
+  .content6 ul {
+    float: right;
+    padding-top: 400px;
+    padding-right: 30px;
+  }
+  .content6 ul h2 {
+    font-size: 50px;
+  }
+  .content6 ul li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+  }
+  .content7 {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .content7 ul li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+  }
+  .head1 {
+    text-align: center;
+    font-size: 40px;
+  }
+  .content8 {
+    width: 1200px;
+    height: 200px;
+    background-color: aquamarine;
+    margin-top: 80px;
+    padding-top: 200px;
+    padding-left: 30px;
+  }
+  .content8 h1 {
+    font-size: 40px;
+  }
+  .content8 p {
+    font-size: 20px;
+  }
+  .content8 button {
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 100px;
+    border-radius: 100px;
+  }
+  .content8 button a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+  }
+  .class1 {
+    width: 1200px;
+    height: 600px;
+    background-image: url(./images/blog\ background.jpg);
+    background-position: center;
+  }
+  .class1 h1 {
+    padding-left: 30px;
+    padding-top: 250px;
+    font-size: 60px;
+    color: gray;
+  }
+  .class1 p {
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 30px;
+    color: gray;
+  }
+  .class2 {
+    width: 1200px;
+    height: 600px;
+  }
+  .class2 img {
+    margin-left: 40px;
+    margin-top: 50px;
+  }
+  .class2 ul {
+    float: right;
+    margin-top: 250px;
+    margin-right: 50px;
+  }
+  .class2 ul li {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  .class2 ul h1 a {
+    text-decoration: none;
+    font-size: 35px;
+    color: black;
+  }
+  .class2 ul li button {
+    width: 200px;
+    height: 50px;
+    margin-top: 40px;
+    border-radius: 100px;
+    background-color: aquamarine;
+  }
+  .class2 ul li button a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+  }
+  .class3 {
+    width: 1200px;
+    height: 600px;
+  }
+  
+  .class3 img {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-top: 50px;
+  }
+  .class3 ul {
+    float: right;
+    margin-top: 150px;
+    margin-right: 50px;
+  }
+  .class3 ul li {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  .class3 ul h1 a {
+    text-decoration: none;
+    font-size: 35px;
+    color: black;
+  }
+  .class3 ul li button {
+    width: 200px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: aquamarine;
+  }
+  .class3 ul li button a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+  }
+  .class4 {
+    width: 1200px;
+    height: 600px;
+  }
+  
+  .class4 img {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-top: 50px;
+  }
+  .class4 ul {
+    float: right;
+    margin-top: 150px;
+    margin-right: 50px;
+  }
+  .class4 ul li {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  .class4 ul h1 a {
+    text-decoration: none;
+    font-size: 35px;
+    color: black;
+  }
+  .class4 ul li button {
+    width: 200px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: aquamarine;
+  }
+  .class4 ul li button a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+  }
+  .service1 {
+    width: 1200px;
+    height: 600px;
+    background-color: whitesmoke;
+  }
+  .service1 img {
+    float: right;
+  }
+  .service1 h1 {
+    font-size: 50px;
+    padding-left: 20px;
+    padding-top: 50px;
+  }
+  .service1 h4 {
+    font-size: 25px;
+    padding-left: 20px;
+  }
+  .service1 p {
+    padding-left: 20px;
+    font-size: 20px;
+  }
+  .contact {
+    width: 1200px;
+    height: 600px;
+    background-position: center;
+    background-image: url(./images/contact\ background.jpg);
+  }
+  .contact h1 {
+    font-size: 150px;
+    color: whitesmoke;
+    padding-left: 20px;
+    padding-top: 250px;
+  }
+  .contact h4 {
+    font-size: 55px;
+    color: whitesmoke;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  .contact1 h1 {
+    font-size: 75px;
+    padding-left: 30px;
+  }
+  .contact1 h3 {
+    font-size: 40px;
+    padding-left: 30px;
+  }
+  .contact1 form {
+    padding-left: 30px;
+    font-size: 20px;
+  }
+  .contact1 form input {
+    width: 250px;
+    height: 50px;
+  }
+  .contact1 form button {
+    width: 200px;
+    height: 40px;
+    border-radius: 150px;
+    background-color: darkcyan;
+  }
+  .contact1 form button a {
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+  }
+  .contact2 {
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 40px;
+  }
+  .contact2 ul {
+    text-decoration: none;
+  }
+  .contact2 ul li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 25px;
+    color: black;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
